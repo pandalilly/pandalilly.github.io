@@ -39,6 +39,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 html {
@@ -50,6 +52,11 @@ html {
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
 }
 
 body {
@@ -74,8 +81,8 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-top: 10px 0;
+  margin-bottom: 5px;
 }
 
 p {
