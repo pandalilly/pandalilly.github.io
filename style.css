@@ -23,14 +23,19 @@ h4 {
   padding: 5px 5px;
   height: 100%;
 }
+.vertical-center {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #main-footer {
   font-size: 15px;
   position: sticky;
 }
-
 #img-profile {
   width: 200px;
-  border-radius: 50%;
+  border-radius: 80%;
 }
 #pandalilly-animation {
   background-size: cover;
