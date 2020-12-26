@@ -1,52 +1,54 @@
 h1 {
-    font-size: xx-large;
+  font-size: xx-large;
 }
 
 h2 {
-    font-size: x-large;
+  font-size: x-large;
 }
 h3 {
-    font-size: large;
+  font-size: large;
 }
 h4 {
-    font-size: medium;
-    padding: 5px 5px;
+  font-size: medium;
+  padding: 5px 5px;
 }
 .body {
-    font-size: 17px;
-    line-height: 1.5em;
+  font-size: 17px;
+  line-height: 1.5em;
 }
 .img {
-    width: 100%;
+  width: 100%;
 }
 .card {
-    padding: 5px 5px;
-    height: 100%;
+  padding: 5px 5px;
+  height: 100%;
 }
 #main-footer {
-    font-size: 15px;
-    position: sticky;
+  font-size: 15px;
+  position: sticky;
 }
 
 #img-profile {
-    width: 200px;
+  width: 200px;
+  border-radius: 50%;
 }
 #pandalilly-animation {
-    background-image: url(/img/moon-tree-sky.com.jpeg);
-    background-size: cover;
-    margin: auto;
-    opacity: 0.9;
+  background-size: cover;
+  height: 760px;
+}
+#section-banner .fa {
+  font-size: 50px;
+  padding: 5px 5px;
+  text-align: center;
+}
+#section-banner .card {
+  text-align: center;
+  padding: 10px;
+}
+#about-jumbo {
+  background-image: url(/img/v2/forest-ferns.jpg);
 }
 #section-banner {
-    background-image: url(/img/dark-moon.jpeg);
-    color: #fff;
-}
-#section-skills .fa {
-    font-size: 50px;
-    padding: 5px 5px;
-    text-align: center;
-}
-#section-skills .card {
-    text-align: center;
-    padding: 10px;
+  height: 1080px;
+  background-image: url(/img/v2/dark-street-lights-benches.jpeg);
 }
