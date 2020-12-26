@@ -28,6 +28,7 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 #main-footer {
   font-size: 15px;
@@ -35,9 +36,10 @@ h4 {
 }
 #img-profile {
   width: 200px;
-  border-radius: 80%;
+  border-radius: 90%;
 }
 #pandalilly-animation {
+  background-image: url(/img/v2/white-trees-grey.jpeg);
   background-size: cover;
   height: 760px;
 }
@@ -51,7 +53,7 @@ h4 {
   padding: 10px;
 }
 #about-jumbo {
-  background-image: url(/img/v2/forest-ferns.jpg);
+  background-image: url(/img/v2/dark-street-lights.jpeg);
 }
 #section-banner {
   height: 1080px;
