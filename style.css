@@ -1,75 +1,33 @@
-h1 {
-  font-size: xx-large;
-}
-
-h2 {
-  font-size: x-large;
-}
-h3 {
-  font-size: large;
-}
-h4 {
-  font-size: medium;
-}
-.body {
-  font-size: 17px;
-  line-height: 1.5em;
-}
-.img {
-  width: 100%;
-}
-.card {
-  padding: 5px 5px;
-  height: 100%;
-}
-
-.vertical-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-#main-footer {
-  font-size: 15px;
-  position: sticky;
-}
-#img-profile {
-  width: 200px;
-  border-radius: 90%;
-}
-#pandalilly-animation {
-  background-image: url(/img/v2/white-trees-grey.jpeg);
-  background-size: cover;
-  height: 760px;
-}
-#shop-setup {
-  display: flex;
-}
-#shop-pane-1 {
-  background-image: url(/img/v2/set-up-shop-abandoned.webp);
-  height: 530px;
-}
-#shop-pane-2 {
-  background-image: url(/img/v2/white-trees-grey.jpeg);
-  width: 100%;
-}
-#shop-pane-1 .h2 {
-  align-self: flex-end;
-  justify-self: right;
-}
-#section-banner .fa {
-  font-size: 50px;
-  padding: 5px 5px;
-  text-align: center;
-}
-#section-banner .card {
-  text-align: center;
+#index-jumbo {
+  height: 360px;
   padding: 10px;
 }
-#about-jumbo {
-  background-image: url(/img/v2/dark-street-lights.jpeg);
+#jumbo-profile {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
-#section-banner {
-  height: 1080px;
-  background-image: url(/img/v2/dark-street-lights-benches.jpeg);
+#panda-profile {
+  border-radius: 80%;
+  width: 200px;
+}
+.card {
+  padding: 10px;
+}
+#blog-img {
+  border-radius: 10%;
+}
+#index-carousel {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.carousel-inner {
+  padding: 10px;
+}
+#item-1,
+#item-2,
+#item-3 {
+  height: 460px;
+  width: 900px;
 }

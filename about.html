@@ -7,7 +7,6 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -27,12 +26,20 @@
     />
     <link rel="stylesheet" href="style.css" type="text/css" />
 
+    <!-- Fontawesome Kit -->
+    <script
+      src="https://kit.fontawesome.com/6aaf966134.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Pandalilly | About</title>
   </head>
   <header>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="index.html">PandaLilly</a>
+      <a class="navbar-brand" href="index.html"
+        ><span class="fa fa-yin-yang"></span
+      ></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -47,7 +54,7 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home </a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html"
@@ -55,10 +62,7 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="skills.html">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
+            <a class="nav-link" href="Blog.html">Blog</a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -72,9 +76,9 @@
               Projects
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Testing tool</a>
-              <a class="dropdown-item" href="#">Web server & hosting</a>
-              <a class="dropdown-item" href="#">Back-end developer journey</a>
+              <a class="dropdown-item" href="#">Web Hosting</a>
+              <a class="dropdown-item" href="#">Manual testing tool</a>
+              <a class="dropdown-item" href="#">Coming soon</a>
             </div>
           </li>
         </ul>
@@ -83,28 +87,158 @@
   </header>
 
   <body>
-    <div id="about-jumbo" class="jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-3 text-light">About Pandalilly</h1>
-        <p class="lead text-muted">
-          "Not all who wander are lost." -JRR Tolkien
-        </p>
-        <hr class="my-2" />
-      </div>
-    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <!-- about side panel-->
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 align-self-start">
+          <h1>About Pandalilly</h1>
+          <div class="row">
+            <div class="container-fluid">
+              <p>
+                Bare with me as I stumble along, trip and fall, and hopefully,
+                find my way... to trip again. And so it goes.
+              </p>
+            </div>
+            <div class="container-fluid">
+              <img
+                class="img-fluid"
+                src="/img/pandalily-logo.JPG"
+                alt="A picture taken by Sophia"
+              />
+            </div>
+            <div class="container-fluid">
+              <p>
+                "All that is gold does not glitter, Not all those who wander are
+                lost ... - J.R.R. Tolkien
+              </p>
+            </div>
+          </div>
+        </div>
 
-    <div id="about-body" class="row container-fluid bg-dark">
-      <div class="text-light">
-        <h2>Personal Project</h2>
-        <p>
-          This is where I will be posting and sharing my personal projects; and
-          anything that I find interesting. It occurred to me that this way of
-          documenting projects will keep me motivated to complete them. I have
-          hundreds of ideas that I have not yet executed, and this is a small
-          step towards executing one of them. In the mean time, bare along with
-          me as I stumble, trip, fall and hopefully, find my way... to be flat
-          on my face again. And so it goes.
-        </p>
+        <!-- about section -->
+        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+          <div class="row">
+            <h2>So what can I do?</h2>
+
+            <!-- first row of cards-->
+            <div class="row p-3">
+              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div id="industrial-eng" class="card card-body">
+                  <i class="fa fa-gear"></i>
+                  <h3 class="card-title">Industrial Engineer</h3>
+                  <p class="card-text">
+                    Qualified with B.Eng (Industrial Engineering) in 2018. IE is
+                    an inter-disciplinary engineering discipline focused on
+                    optimising complex systems and processes.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div id="data-analysis" class="card card-body">
+                  <i class="fa fa-line-chart"></i>
+                  <h3 class="card-title">Data Analysis</h3>
+                  <p class="card-text">
+                    Give me some data to wrangle, and I am a happy panda!
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div id="process-design" class="card card-body">
+                  <i class="fa fa-procedures"></i>
+                  <h3 class="card-title">Business Process Design</h3>
+                  <p class="card-text">
+                    Applying industrial engineering principles to business
+                    process analysis and design.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- second row of cards -->
+            <div class="row p-3">
+              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div id="supply-chain" class="card card-body">
+                  <i class="fa fa-truck"></i>
+                  <h3 class="card-title">Supply Chain Management</h3>
+                  <p class="card-text">
+                    I am most interested in optimising supply chains to deliver
+                    ethical goods and services. So this is what I spend my time
+                    reading about, thinking of and developing projects for.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div id="critical-reasoning" class="card card-body">
+                  <i class="fa fa-lightbulb"></i>
+                  <h3>Critical Reasoning</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    voluptatum quis laudantium blanditiis quaerat!
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div id="web-development" class="card card-body">
+                  <i class="fa fa-pie-chart"></i>
+                  <h3 class="card-title">Web Development</h3>
+                  <p class="card-text">
+                    Beginner developer in JavaScript, Node.js and Haskell
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <h2>And what have I done before?</h2>
+            <div class="row">
+              <div
+                id="work-mthunzi"
+                class="col-xs-4 col-sm-4 col-md-4 col-lg-4"
+              >
+                <h4 class="text-success">
+                  Software Tester | Mthunzi Digital Aid Network
+                </h4>
+                <p>Manual software testing</p>
+                <p>Generating test strategies and test cases</p>
+                <p>
+                  QA tasks e.g. documenting new functionalities tested,
+                  reporting on bugs found
+                </p>
+              </div>
+
+              <div id="work-vwsa" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <h4 class="text-danger">
+                  Engineer-In-Training | Imperial Insync logistics
+                </h4>
+                <p>
+                  Container planning - assigning master data to new parts
+                  arriving at DC
+                </p>
+                <p>Bin consolidations - according to utilisation rate KPI</p>
+                <p>Re-designing storage areas such as bulk and mezzanine</p>
+              </div>
+
+              <div id="work-pnp" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <h4 class="text-info">
+                  Supply Chain Analyst | Pick N Pay Supply Chain Planning
+                </h4>
+                <p>
+                  Negotiating DC trade contracts for DC & swell allowances, and
+                  any relevant costs
+                </p>
+                <p>
+                  Cross-dock income optimisation - finding new ways to increase
+                  income for this DC
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
