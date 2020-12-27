@@ -47,6 +47,15 @@ h4 {
 }
 #shop-pane-1 {
   background-image: url(/img/v2/set-up-shop-abandoned.webp);
+  height: 530px;
+}
+#shop-pane-2 {
+  background-image: url(/img/v2/white-trees-grey.jpeg);
+  width: 100%;
+}
+#shop-pane-1 .h2 {
+  align-self: flex-end;
+  justify-self: right;
 }
 #section-banner .fa {
   font-size: 50px;
