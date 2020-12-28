@@ -11,8 +11,17 @@
   border-radius: 80%;
   width: 200px;
 }
-.card {
-  padding: 10px;
+#index-section {
+  margin: auto;
+}
+#section-projects {
+  background-color: #d3d3d3;
+}
+#project-1 {
+  align-self: end;
+}
+#section-blog {
+  background-color: #fafad2;
 }
 #blog-img {
   border-radius: 10%;
