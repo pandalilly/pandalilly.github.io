@@ -11,14 +11,8 @@
   border-radius: 80%;
   width: 200px;
 }
-#index-section {
-  margin: auto;
-}
 #section-projects {
   background-color: #d3d3d3;
-}
-#project-1 {
-  align-self: end;
 }
 #section-blog {
   background-color: #8dabc7d8;
@@ -42,25 +36,16 @@
 }
 #about-page {
   display: flexbox;
+  width: 100vw;
 }
 #about-panel {
   background-color: #d3d3d3;
-  padding-left: 10px;
 }
-
 #about-img {
   box-sizing: border-box;
-  height: 450px;
   padding-top: 10px 10px;
 }
 .fa-quote {
-  padding: 10px;
-}
-#skills-heading {
-  background-color: #8dabc7d8;
-  width: 100%;
-}
-#skills-cards {
   padding: 10px;
 }
 #about-section .fa {
@@ -70,7 +55,27 @@
 #about-section .card {
   text-align: center;
 }
-#about-work {
+#skills-heading {
+  background-color: #8dabc7d8;
+}
+#first-skills {
   padding: 10px;
   justify-content: space-evenly;
+}
+#second-skills {
+  justify-content: space-evenly;
+  padding: 10px;
+}
+#about-work {
+  background-color: azure;
+}
+#blog-page {
+  background-color: #8dabc7d8;
+  height: 100vh;
+}
+#blog-heading {
+  text-align: center;
+}
+#blog-msg {
+  text-align: right;
 }
