@@ -87,173 +87,187 @@
   </header>
 
   <body>
-    <div id="about-page" class="row container-fluid">
-      <!-- about side panel-->
-      <div
-        id="about-panel"
-        class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"
-      >
-        <div class="row container-fluid">
-          <div class="col">
-            <h1>About Pandalilly</h1>
-            <p>
-              Bare with me as I stumble along, trip and fall, and hopefully,
-              find my way... to trip again. And so it goes.
-            </p>
-          </div>
-        </div>
-        <div id="about-img" class="row container-fluid">
-          <div class="col">
-            <img
-              class="img-fluid"
-              src="/img/pandalily-logo.JPG"
-              alt="A picture taken by Sophia"
-            />
-          </div>
-        </div>
-
-        <div id="my-quote" class="row container-fluid">
-          <div class="col">
-            <blockquote class="fa fa-quote">
-              "All that is gold does not glitter, Not all those who wander are
-              lost..."
-              <p>- J.R.R. Tolkien</p>
-            </blockquote>
-          </div>
-        </div>
-      </div>
-
-      <!-- about section -->
-      <div
-        id="about-section"
-        class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-xl-8"
-      >
-        <div id="skills-heading" class="row container-fluid">
+    <div id="about-page" class="container-fluid">
+      <div class="row">
+        <!-- about side panel-->
+        <div
+          id="about-panel"
+          class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"
+        >
           <div class="row container-fluid">
             <div class="col">
-              <h2>What can I do</h2>
+              <h1>About Pandalilly</h1>
+              <p>
+                Bare with me as I stumble along, trip and fall, and hopefully,
+                find my way... to trip again. And so it goes.
+              </p>
             </div>
           </div>
-          <div id="skills-cards" class="row container-fluid">
-            <!-- FIRST ROW of cards-->
-            <div id="first-skills" class="row container-fluid">
-              <!-- industrial engineering -->
-              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                <div id="industrial-eng" class="card card-body">
-                  <i class="fa fa-gear"></i>
-                  <h4 class="card-title">Industrial Engineer</h4>
-                  <p class="card-text">
-                    Qualified with B.Eng (Industrial Engineering) in 2018. IE is
-                    an inter-disciplinary engineering discipline focused on
-                    optimising complex systems and processes.
-                  </p>
-                </div>
-              </div>
-              <!-- supply chain mgt -->
-              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                <div id="supply-chain" class="card card-body">
-                  <i class="fa fa-truck"></i>
-                  <h4 class="card-title">Supply Chain Management</h4>
-                  <p class="card-text">
-                    I am most interested in optimising supply chains to deliver
-                    ethical goods and services. So this is what I spend my time
-                    reading about, thinking of and developing projects for.
-                  </p>
-                </div>
-              </div>
+          <div id="about-img" class="row container-fluid">
+            <div class="col">
+              <img
+                class="img-fluid"
+                src="/img/pandalily-logo.JPG"
+                alt="A picture taken by Sophia"
+              />
             </div>
+          </div>
 
-            <!-- SECOND ROW of cards -->
-            <div id="second-skills" class="row container-fluid">
-              <!-- critical reasoning -->
-              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                <div id="critical-reasoning" class="card card-body">
-                  <i class="fa fa-lightbulb"></i>
-                  <h4>Critical Reasoning</h4>
-                  <p class="card-text">
-                    Value logical approaches to problem-solving and
-                    understanding phenomena.
-                  </p>
-                </div>
-              </div>
-              <!-- beginner web dev -->
-              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                <div id="web-development" class="card card-body">
-                  <i class="fa fa-pie-chart"></i>
-                  <h4 class="card-title">Web Development</h4>
-                  <p class="card-text">Beginner developer in JavaScript :)</p>
-                </div>
-              </div>
-              <!-- business process design -->
-              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                <div id="process-design" class="card card-body">
-                  <i class="fa fa-procedures"></i>
-                  <h4 class="card-title">Business Process Design</h4>
-                  <p class="card-text">
-                    Applying industrial engineering principles to business
-                    process analysis and design.
-                  </p>
-                </div>
-              </div>
+          <div id="my-quote" class="row container-fluid">
+            <div class="col">
+              <blockquote class="fa fa-quote">
+                "All that is gold does not glitter, Not all those who wander are
+                lost..."
+                <p>- J.R.R. Tolkien</p>
+              </blockquote>
             </div>
           </div>
         </div>
+        <!-- about page (excluding side panel)-->
+        <div
+          id="about-section"
+          class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-xl-8"
+        >
+          <div id="skills-cards" class="container-fluid">
+            <div class="row">
+              <div class="col">
+                <h2>What can I do</h2>
+              </div>
 
-        <!-- ABOUT WORK -->
-        <div id="about-work" class="row container-fluid">
-          <div id="work-heading" class="row">
-            <div class="col">
-              <h2>..and I worked here</h2>
+              <!-- FIRST ROW of cards-->
+              <div id="first-skills" class="row">
+                <!-- industrial engineering -->
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                  <div id="industrial-eng" class="card card-body">
+                    <i class="fa fa-gear"></i>
+                    <h4 class="card-title">Industrial Engineer</h4>
+                    <p class="card-text">
+                      Qualified with B.Eng (Industrial Engineering) in 2018. IE
+                      is an inter-disciplinary engineering discipline focused on
+                      optimising complex systems and processes.
+                    </p>
+                  </div>
+                </div>
+                <!-- supply chain mgt -->
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                  <div id="supply-chain" class="card card-body">
+                    <i class="fa fa-truck"></i>
+                    <h4 class="card-title">Supply Chain Management</h4>
+                    <p class="card-text">
+                      I am most interested in optimising supply chains to
+                      deliver ethical goods and services. So this is what I
+                      spend my time reading about, thinking of and developing
+                      projects for.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <!-- SECOND ROW of cards -->
+              <div id="second-skills" class="row">
+                <!-- critical reasoning -->
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                  <div id="critical-reasoning" class="card card-body">
+                    <i class="fa fa-lightbulb"></i>
+                    <h4>Critical Reasoning</h4>
+                    <p class="card-text">
+                      Value logical approaches to problem-solving and
+                      understanding phenomena.
+                    </p>
+                  </div>
+                </div>
+                <!-- beginner web dev -->
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                  <div id="web-development" class="card card-body">
+                    <i class="fa fa-pie-chart"></i>
+                    <h4 class="card-title">Web Development</h4>
+                    <p class="card-text">Beginner developer in JavaScript :)</p>
+                  </div>
+                </div>
+                <!-- business process design -->
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                  <div id="process-design" class="card card-body">
+                    <i class="fa fa-procedures"></i>
+                    <h4 class="card-title">Business Process Design</h4>
+                    <p class="card-text">
+                      Applying industrial engineering principles to business
+                      process analysis and design.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+          <hr />
+          <!-- ABOUT WORK -->
+          <div id="about-work" class="container-fluid">
+            <div class="row">
+              <div class="col">
+                <div id="work-heading" class="row">
+                  <div class="col">
+                    <h2>..and I worked here</h2>
+                  </div>
+                </div>
 
-          <div id="work-row" class="row container-fluid">
-            <div
-              id="work-mthunzi"
-              class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"
-            >
-              <p class="lead">Software Tester | Mthunzi Digital Aid Network</p>
-              <p>Manual software testing</p>
-              <p>Generating test strategies and test cases</p>
-              <p>
-                QA tasks e.g. documenting new functionalities tested, reporting
-                on bugs found
-              </p>
-            </div>
+                <div id="work-row" class="container-fluid">
+                  <div class="row">
+                    <div
+                      id="work-mthunzi"
+                      class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"
+                    >
+                      <p class="lead">
+                        Software Tester | Mthunzi Digital Aid Network
+                      </p>
+                      <p>Manual software testing</p>
+                      <p>Generating test strategies and test cases</p>
+                      <p>
+                        QA tasks e.g. documenting new functionalities tested,
+                        reporting on bugs found
+                      </p>
+                    </div>
 
-            <div
-              id="work-vwsa"
-              class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"
-            >
-              <p class="lead">
-                Engineer-In-Training | Imperial Insync logistics
-              </p>
-              <p>
-                Container planning - assigning master data to new parts arriving
-                at DC
-              </p>
-              <p>Bin consolidations - according to utilisation rate KPI</p>
-              <p>Re-designing storage areas such as bulk and mezzanine</p>
-            </div>
+                    <div
+                      id="work-vwsa"
+                      class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"
+                    >
+                      <p class="lead">
+                        Engineer-In-Training | Imperial Insync logistics
+                      </p>
+                      <p>
+                        Container planning - assigning master data to new parts
+                        arriving at DC
+                      </p>
+                      <p>
+                        Bin consolidations - according to utilisation rate KPI
+                      </p>
+                      <p>
+                        Re-designing storage areas such as bulk and mezzanine
+                      </p>
+                    </div>
 
-            <div
-              id="work-pnp"
-              class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"
-            >
-              <p class="lead">
-                Supply Chain Analyst | Pick N Pay Supply Chain Planning
-              </p>
-              <p>
-                Negotiating DC trade contracts for DC & swell allowances, and
-                any relevant costs
-              </p>
-              <p>
-                Cross-dock income optimisation - finding new ways to increase
-                income for this DC
-              </p>
-              <p>Supply chain data analysis</p>
+                    <div
+                      id="work-pnp"
+                      class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"
+                    >
+                      <p class="lead">
+                        Supply Chain Analyst | Pick N Pay Supply Chain Planning
+                      </p>
+                      <p>
+                        Negotiating DC trade contracts for DC & swell
+                        allowances, and any relevant costs
+                      </p>
+                      <p>
+                        Cross-dock income optimisation - finding new ways to
+                        increase income for this DC
+                      </p>
+                      <p>Supply chain data analysis</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+          <!-- end "i worked here div" -->
         </div>
       </div>
     </div>

@@ -1,24 +1,25 @@
-#index-jumbo {
-  height: 360px;
+.jumbotron-fluid {
   padding: 10px;
 }
-#jumbo-profile {
+#index-hello {
   justify-content: center;
   align-items: center;
-  margin: auto;
 }
 #panda-profile {
   border-radius: 80%;
-  width: 200px;
 }
+
 #section-projects {
   background-color: #d3d3d3;
+  align-items: center;
+  justify-content: center;
 }
 #section-blog {
   background-color: #8dabc7d8;
 }
 #blog-img {
   border-radius: 10%;
+  padding: inherit;
 }
 #index-carousel {
   justify-content: center;
@@ -48,6 +49,10 @@
 .fa-quote {
   padding: 10px;
 }
+#about-section {
+  background-color: #8dabc7d8;
+  margin: 0px;
+}
 #about-section .fa {
   font-size: 50px;
   text-align: center;
@@ -55,16 +60,14 @@
 #about-section .card {
   text-align: center;
 }
-#skills-heading {
-  background-color: #8dabc7d8;
-}
 #first-skills {
-  padding: 10px;
   justify-content: space-evenly;
 }
 #second-skills {
   justify-content: space-evenly;
-  padding: 10px;
+}
+#about-page {
+  margin: 0%;
 }
 #about-work {
   background-color: azure;

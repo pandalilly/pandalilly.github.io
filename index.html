@@ -90,15 +90,18 @@
   <body>
     <!-- Hello section-->
     <div id="index-jumbo" class="jumbotron-fluid bg-dark">
-      <div class="row">
-        <div id="jumbo-profile" class="align-self-center text-center">
+      <div id="index-hello" class="row">
+        <div id="hello-img" class="col text-center">
           <img
             id="panda-profile"
             class="img-fluid"
             src="/img/v2/cute-baby-panda-hand-up.jpeg"
             alt="A picture of a baby panda, Sophia"
           />
-          <p class="lead bg-light">
+        </div>
+        <div class="w-100 p-3"></div>
+        <div id="hello-msg" class="col-sm-4">
+          <p class="lead bg-light text-center">
             Hello, I'm Sophia. Welcome to my online home.
           </p>
         </div>
@@ -106,65 +109,66 @@
     </div>
 
     <!-- blog and project showcase -->
-    <div id="index-section" class="row container-fluid">
-      <div
-        id="section-projects"
-        class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"
-      >
-        <div class="row container-fluid">
-          <div class="col">
-            <h2 class="text-center">My Projects</h2>
-          </div>
-        </div>
-
-        <div class="row container-fluid">
-          <div id="project-1" class="col">
-            <h3 class="text-right">Website and Hosting</h3>
-            <span>
-              In a bid to learn more about sysadmin, I am going to host my
-              website at home, and manage the server/s. Let's see why others get
-              web hosting companies, while Sophia re-invents the wheel.
-            </span>
-          </div>
-          <div id="project-2" class="col">
-            <h3 class="text-right">Manual testing tool</h3>
-            <span>
-              Do you know what is the most challenging part of manual testing?
-              The manual testing. This is an attempt to bring more automation to
-              my work. It's a paradox - but let's just go with it...
-            </span>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-        <div id="section-blog" class="row container-fluid">
-          <div class="row container-fluid">
+    <div id="index-section" class="container-fluid bg-dark">
+      <div class="row p-3">
+        <div
+          id="section-projects"
+          class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"
+        >
+          <div class="row">
             <div class="col">
-              <h2 class="text-center">Pandalilly Blog</h2>
+              <h2 class="text-center">My Projects</h2>
             </div>
           </div>
 
-          <div class="row container-fluid">
-            <div class="col">
-              <img
-                id="blog-img"
-                class="img-fluid"
-                src="/img/v2/set-up-shop-abandoned.webp"
-                alt="Under construction"
-              />
+          <div class="row">
+            <div id="project-1" class="col">
+              <h3 class="text-right">Website in bootstrap and JS</h3>
+              <span>
+                In a bid to be a software developer, I am going to build my
+                website from scratch, and find the cheapest way to host it (So
+                far - that's GitHub. It's free). Let's see why others get web
+                hosting companies, while Sophia re-invents the wheel.
+              </span>
+            </div>
+            <div id="project-2" class="col">
+              <h3 class="text-right">Manual testing tool</h3>
+              <span>
+                Do you know what is the most challenging part of manual testing?
+                The manual testing. This is an attempt to bring more automation
+                to my work. It's a paradox - but let's just go with it. And I
+                will get to delve into some back-end stuff.
+              </span>
             </div>
           </div>
+        </div>
 
-          <div class="row container-fluid">
-            <div class="col">
-              <p class="text-right">...under construction</p>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+          <div id="section-blog" class="container-fluid">
+            <div class="row">
+              <div class="col">
+                <h2 class="text-center">Pandalilly Blog</h2>
+              </div>
+
+              <div class="row">
+                <div class="col">
+                  <img
+                    id="blog-img"
+                    class="img-fluid"
+                    src="/img/v2/set-up-shop-abandoned.webp"
+                    alt="Under construction"
+                  />
+                </div>
+              </div>
+              <div class="col">
+                <p class="text-right">...under construction</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
+    <br />
     <!-- a carousel of images-->
     <div class="row bg-dark">
       <div id="index-carousel" class="carousel slide" data-ride="carousel">
